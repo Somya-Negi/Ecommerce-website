@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+     <link rel="stylesheet" href="styles.css">
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        
+     <script src="https://kit.fontawesome.com/a811008b6c.js" crossorigin="anonymous"></script>
+ 
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="images/logo.png" height="50px" width="70px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="product.html">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="category.html">Category</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit"><a href="search.html" class="search-index-button">Search</a></button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          
+
+          <h2 class="contact-heading">Contact Us</h2>
+          <div class="contact-section">
+           <div class="contact-section-body">
+            <i class="fa-solid fa-phone" id="contact-icon-first"></i>
+            <p class="contact-text">Let's Talk</p>
+            <p class="contact-text-description">Phone:<span>+91-9876543210</span></p>
+           </div>
+
+           <div class="contact-section-body">
+            <i class="fa-solid fa-envelope-open" id="contact-icon-second"></i>
+            <p class="contact-text">Drop a Line</p>
+            <p class="contact-text-description">Email:<span>xyz@gmail.com</span></p>
+        </div>
+
+           <div class="contact-section-body">
+            <i class="fa-solid fa-shop" id="contact-icon-third"></i>
+            <p class="contact-text">24×7 Support</p>
+            <p class="contact-text-description">Support:<span>1800 101 303</span></p>
+        </div>
+    
+          </div>
+
+          <div class="row">
+            <div class="col-md-8 col-10 mx-auto mb-3 my-5 py-5 border shadow">
+                <h3 class="text-center mb-3">Form</h3>
+                <form action="contact.html" method="POST" id="form">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input name="name" id="name" type="text" placeholder="Name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Email address</label>
+                        <input name="email" id="email" type="email" placeholder="Email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea name="msg" id="msg" placeholder="Message" class="form-control"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block contact-submit-button">Submit</button>
+                </form>
+            </div>
+          </div>
+
+
+
+
+          <div class="footer">
+            <div class="footer-info">
+              <div class="footer-texts">
+              <div class="info-texts">
+                <img src="images/logo.png" height="100px" width="240px">
+               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores in ratione non modi exercitationem? Saepe aliquid esse totam labore fugiat expedita repellendus, debitis dolor tenetur? Nulla possimus soluta quos ipsa!</p>
+              </div>
+              <div class="info-texts">
+                <h2 class="footer-heading">Quick Links</h2>
+                <div class="footer-infos">
+                <p>About</p>
+                <p>Offers & Discounts</p>
+                <p>Get Coupon</p>
+                <p>Contact Us</p>
+              </div>
+              </div>
+              <div class="info-texts">
+                <h2  class="footer-heading">New Products</h2>
+                <div class="footer-infos">
+                <p>Women Cloth</p>
+                <p>Fashion Accessories</p>
+                <p>Man Accessories</p>
+                <p>Rubber made Toys</p>
+              </div>
+              </div>
+              <div class="info-texts">
+                <h2  class="footer-heading">Support</h2>
+                <div class="footer-infos">
+                <p>Frequently Asked Questions</p>
+                <p>Terms & Conditions</p>
+                <p>Privacy Policy</p>
+                <p>Report A Payment</p>
+              </div>
+              </div>
+            </div>
+            </div>
+        
+            <div class="last-section">
+              <p class="copyright-text">Copyright © 2023 All rights reserved</p>
+            </div>
+          </div>
+      
+          
+          
+          
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+<script>
+  $(document).ready(function(){
+      $("#form").submit(function(e){
+          e.preventDefault(); 
+          
+          var name = $('#name').val().trim();
+          var email = $('#email').val().trim();
+          var msg = $('#msg').val().trim();
+          
+          $(".error").remove();
+          
+          var isValidForm = true;
+          
+          if(name.length < 1){
+              $('#name').after('<span class="error">This field is required</span>');
+              isValidForm = false;
+          }
+          
+          if(email.length < 1){
+              $('#email').after('<span class="error">This field is required</span>');
+              isValidForm = false;
+          }
+          
+          if(msg.length < 1){
+              $('#msg').after('<span class="error">This field is required</span>');
+              isValidForm = false;
+          }
+          
+          return isValidForm;
+      });
+  });
+</script>
+
